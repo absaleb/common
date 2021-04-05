@@ -1,4 +1,4 @@
-package common
+package env
 
 import "os"
 
@@ -8,8 +8,4 @@ func GetEnv(key, defaultVal string) string {
 	} else {
 		return defaultVal
 	}
-}
-
-func GetVersion() string {
-	return "v1.0.10"
 }
