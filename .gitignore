@@ -5,7 +5,10 @@
 *.so
 *.dylib
 
-*.idea
+.idea
+vendor
+*.iml
+go.sum
 
 # Test binary, built with `go test -c`
 *.test
