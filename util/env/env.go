@@ -11,5 +11,5 @@ func GetEnv(key, defaultVal string) string {
 }
 
 func GetVersion() string {
-	return "v1.0.2"
+	return "v1.0.10"
 }
