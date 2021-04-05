@@ -9,3 +9,7 @@ func GetEnv(key, defaultVal string) string {
 		return defaultVal
 	}
 }
+
+func GetVersion() string {
+	return "v1.0.2"
+}
